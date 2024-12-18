@@ -1,0 +1,96 @@
+
+
+.top-products {
+    width: 90%;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #ff9800;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px 20px; 
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.product-number {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-left: 10px;
+    min-width: 30px;
+}
+
+.product-item img {
+    width: 70px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.product-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.view-all {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #66b7fa; 
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.view-all:hover {
+   cursor: pointer;
+}
+
+.product-item:hover
+{
+cursor: pointer;
+}
+
+.circle-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* اندازه دایره */
+    height: 40px; /* اندازه دایره */
+    border: 2px solid #ddd; /* رنگ حاشیه دایره */
+    border-radius: 50%; /* دایره‌ای شدن */
+    background-color: #fff; /* رنگ پس‌زمینه */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.circle-arrow span {
+    font-size: 1.2rem; /* اندازه فلش */
+    color: #555; /* رنگ فلش */
+    font-weight: bold;
+    transform: rotate(0deg); /* زاویه چرخش فلش */
+}
+
+.circle-arrow:hover {
+    background-color: #f5f5f5; /* رنگ هاور */
+    border-color: #aaa; /* تغییر رنگ حاشیه در هاور */
+}
+

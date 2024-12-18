@@ -1,0 +1,217 @@
+#searchbox {
+    background-color: rgb(225, 221, 221);
+}
+
+a div {
+    text-align: center;
+}
+
+a img {
+    height: 40px;
+}
+
+#navbar-head button:hover {
+    border-bottom: 3px solid red;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#underslide a {
+    text-decoration: none;
+    color: black;
+}
+
+#underslide a img {
+    height: 60px;
+}
+
+.custom-navbar {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.custom-navbar img {
+    max-height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#category a {
+    text-decoration: none;
+    color: black;
+}
+
+#category img {
+    height: 80px;
+}
+
+.offer-section {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.offer-header {
+    text-align: right;
+}
+
+.offer-header #pishnahad img {
+    height: 150px;
+    width: 100px;
+}
+
+.offer-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.offer-header .timer {
+    font-size: 1rem;
+    background: white;
+    color: #ff4d4f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.offer-logo {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.offer-logo img {
+    width: 50px;
+}
+
+.offer-footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 7px;
+}
+
+.offer-footer a {
+    color: white;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.offer-footer a svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+.offer-products {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.offer-products::-webkit-scrollbar {
+    height: 8px;
+}
+
+.offer-products::-webkit-scrollbar-thumb {
+    background: #ff7575;
+    border-radius: 4px;
+}
+
+.product {
+    min-width: 200px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product .product-info {
+    padding: 10px;
+}
+
+.product .product-info h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product .product-info .price {
+    font-size: 1.2rem;
+    color: #ff4d4f;
+    font-weight: bold;
+}
+
+.product .product-info .discount {
+    font-size: 0.9rem;
+    color: #888;
+    text-decoration: line-through;
+}
+
+#btr {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#btl {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-btn.left {
+    left: -10px;
+}
+
+.scroll-btn.right {
+    right: -10px;
+}
+
+#btr #btl svg {
+    width: 20px;
+    height: 20px;
+    fill: #ff4d4f;
+}
